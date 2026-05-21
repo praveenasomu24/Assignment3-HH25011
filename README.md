@@ -1,5 +1,7 @@
 Assignment 3 - Location Logger App
+
 Introduction
+
 The Location Logger application is an Android-based mobile application developed in Java using Android Studio.
 The main objective of this app is to capture the device’s current geographic location, display the latest location information, and maintain a local history of saved location records.
 
@@ -16,26 +18,31 @@ Latitude, longitude, and timestamp are displayed in real time.
 Location tracking is handled using an Android Service for background processing.
 Each location update is stored locally and displayed as history.
 Data persists even after restarting the application.
+
 Features Implemented
 Location Services
 Real-time GPS location tracking
 Latitude and longitude display
 Timestamp generation for each update
 Safe handling of unavailable location data
+
 Android Service Integration
 Background service for location updates
 Proper service start and stop handling
 Separation of UI and background logic
+
 Local Storage
 Uses SharedPreferences for persistence
 Stores latest and historical location data
 Data survives app restart
+
 User Interface
 Start Tracking button
 Stop Tracking button
 Live location display
 Tracking status indicator
 Location history section
+
 Robustness
 Runtime permission handling
 Graceful permission denial handling
@@ -49,6 +56,7 @@ Android Service → Background location processing
 SharedPreferences → Lightweight local storage
 This design ensures modularity, efficiency, and battery optimization.
 
+
 ##Testing and Validation
 
 The application was tested for:
@@ -59,7 +67,8 @@ Service start/stop behavior
 Data persistence after app restart
 All test cases confirmed stable and expected behavior.
 
-Screenshots
+Screenshots:
+
 Main Interface
 Active Location Tracking
 Saved Location History
